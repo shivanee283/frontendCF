@@ -4,6 +4,7 @@ import "./App.css"
 import Rescidencies from "./components/Residencies/Rescidencies";
 import Value from "./components/Value/Value";
 import GetStarted from "./components/GetStarted/GetStarted";
+import Contact from "./components/Contact/Contact";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       </div>
       <Rescidencies/>
       <Value/>
+      <Contact/>
       <GetStarted/>
     </div>
   );
