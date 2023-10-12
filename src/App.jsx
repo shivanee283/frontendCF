@@ -5,6 +5,7 @@ import Rescidencies from "./components/Residencies/Rescidencies";
 import Value from "./components/Value/Value";
 import GetStarted from "./components/GetStarted/GetStarted";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Value/>
       <Contact/>
       <GetStarted/>
+      <Footer/>
     </div>
   );
 }
