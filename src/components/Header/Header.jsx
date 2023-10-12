@@ -3,6 +3,7 @@ import "./Header.css";
 // import { Route, Link, Router, Routes } from "react-router-dom";
 import { Link, Routes, Route } from "react-router-dom";
 import CreateCampaign from "../CreateCampaign/CreateCampaign";
+import Register from "../Register/Register";
 // import Landing from "../../Landing";
 // import Hero from "../Hero/Hero";
 
@@ -37,12 +38,18 @@ const Header = () => {
 
           <Link to="/login">Login</Link>
           <br />
-          <Link to="/signup">
+          {/* <Link to="/signup">
             <button className="button-34">
               <a href="">SignUp</a>
             </button>
           </Link>
-          <br />
+          <br /> */}
+          <a href="/signup" className="button-34">
+            SignUp
+          </a>
+          <Routes>
+            <Route path="/signup" element={<Register />} />
+          </Routes>
         </div>
       </div>
     </section>

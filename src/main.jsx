@@ -6,12 +6,14 @@ import { BrowserRouter, Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
 import Landing from "./Landing";
 import CreateCampaign from "./components/CreateCampaign/CreateCampaign";
+import Register from "./components/Register/Register";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <React.StrictMode>
       <Routes>
         <Route path="/create-campaign" element={<CreateCampaign />} />
+        <Route path="/signup" element={<Register />} />
         <Route path="/" element={<Landing />} />
       </Routes>
       {/* <Landing /> */}
