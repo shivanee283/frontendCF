@@ -1,14 +1,3 @@
-// import React from 'react'
-
-// const CreateCampaign = () => {
-//   return (
-//     <div>hello</div>
-//   )
-// }
-
-// export default CreateCampaign
-
-// CreateCampaign.jsx
 import React from "react";
 import "./CreateCampaign.css"; // Import the CSS file
 
@@ -20,7 +9,7 @@ const CreateCampaign = () => {
 
   return (
     <div className="create-campaign-container">
-      <h1>Create a Campaign</h1>
+      <h3>Create a Campaign</h3>
       <form onSubmit={handleSubmit}>
         <div className="form-section">
           <label>
