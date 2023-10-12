@@ -16,9 +16,6 @@ function Landing() {
       <div>
         <div className='white-gradient'/>
         <Header/>
-        {/* <Routes>
-            <Route to="/create-campaign" component={CreateCampaign}/>
-        </Routes> */}
         <Hero/>
       </div>
       <Rescidencies/>
