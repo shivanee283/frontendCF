@@ -31,7 +31,11 @@ const CreateCampaign = () => {
   return (
     <div className="create-campaign-container">
       {loading ? (
-        <div className="loading">Loading...</div>
+        <div className="loader">
+          <div class="box-load1"></div>
+          <div class="box-load2"></div>
+          <div class="box-load3"></div>
+        </div>
       ) : (
         <>
           <h3>Create a Campaign</h3>
@@ -39,7 +43,11 @@ const CreateCampaign = () => {
             <div className="form-section">
               <label>
                 Campaign Name:
-                <input type="text" name="campaignName" className="input-field" />
+                <input
+                  type="text"
+                  name="campaignName"
+                  className="input-field"
+                />
               </label>
               <label>
                 Description:
@@ -63,7 +71,11 @@ const CreateCampaign = () => {
               </label>
               <label>
                 Fund Required:
-                <input type="number" name="fundRequired" className="input-field" />
+                <input
+                  type="number"
+                  name="fundRequired"
+                  className="input-field"
+                />
               </label>
               <label>
                 Currency:
@@ -91,11 +103,26 @@ const CreateCampaign = () => {
             <div className="modal-overlay">
               <div className="modal-content">
                 <h3>Additional Information</h3>
-                <label>Name: <input type="text" name="userName" /></label><br />
-                <label>Address: <input type="text" name="userAddress" /></label><br />
-                <label>Phone Number: <input type="text" name="userPhone" /></label><br />
-                <label>Age: <input type="text" name="userAge" /></label><br />
-                <label>Pincode: <input type="text" name="userPincode" /></label><br />
+                <label>
+                  Name: <input type="text" name="userName" />
+                </label>
+                <br />
+                <label>
+                  Address: <input type="text" name="userAddress" />
+                </label>
+                <br />
+                <label>
+                  Phone Number: <input type="text" name="userPhone" />
+                </label>
+                <br />
+                <label>
+                  Age: <input type="text" name="userAge" />
+                </label>
+                <br />
+                <label>
+                  Pincode: <input type="text" name="userPincode" />
+                </label>
+                <br />
                 <button onClick={handleCloseModal}>Close</button>
               </div>
             </div>
