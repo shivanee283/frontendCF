@@ -9,11 +9,17 @@ const Header = () => {
         <img src="./logo.png" alt="logo" width={100}/>
 
         <div className="flexCenter h-menu">
-          <a href="" >Create Campaign</a>
+          {/* <a href="" >Create Campaign</a> */}
           <a href="" >All Campaigns</a>
           <a href="" >Contact</a>
-          <a href="" >Login</a>
-          <button className="button">
+          <button className="button-3">
+            <a href="" >Create Campaign</a>
+          </button>
+          {/* <a href="" >Login</a> */}
+          <button className="button-34">
+            <a href="" >Login</a>
+          </button>
+          <button className="button-34">
             <a href="" >SignUp</a>
           </button>
         </div>
@@ -23,3 +29,4 @@ const Header = () => {
 }
 
 export default Header
+
