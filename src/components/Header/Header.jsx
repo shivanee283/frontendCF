@@ -9,9 +9,9 @@ const Header = () => {
         <img src="./logo.png" alt="logo" width={100}/>
 
         <div className="flexCenter h-menu">
-          <a href="" >All Services</a>
-          <a href="" >Expert Talk</a>
-          <a href="" >Register as Professional</a>
+          <a href="" >Create Campaign</a>
+          <a href="" >All Campaigns</a>
+          <a href="" >Contact</a>
           <a href="" >Login</a>
           <button className="button">
             <a href="" >SignUp</a>
